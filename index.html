@@ -152,6 +152,9 @@
               <a href="https://papers.nips.cc/paper_files/paper/2022/hash/24f420aa4c99642dbb9aae18b166bbbc-Abstract-Conference.html">NeurIPS 2022</a>,
               <a href="https://nips.cc/virtual/2022/poster/53003">Poster and Presentation</a>,
               <a href="https://openreview.net/forum?id=RczPtvlaXPH">Open Review</a>
+              &nbsp;
+              <img src="svg/key.svg" alt="keywords">
+              Deep Neural Networks, Invariant Architecture, Equivariant Architecture, Dual Optimization, Invariant Embedding, Corellated Equilibrim, Coarse Corellated Equilibrium, Semi-Supervised Learning
             </p>
             <p>
               Solution concepts such as Nash Equilibria, Correlated Equilibria, and Coarse Correlated Equilibria are useful components for many multiagent machine learning algorithms. Unfortunately, solving a normal-form game could take prohibitive or non-deterministic time to converge, and could fail. We introduce the Neural Equilibrium Solver which utilizes a special equivariant neural network architecture to approximately solve the space of all games of fixed shape, buying speed and determinism. We define a flexible equilibrium selection framework, that is capable of uniquely selecting an equilibrium that minimizes relative entropy, or maximizes welfare. The network is trained without needing to generate any supervised training data. We show remarkable zero-shot generalization to larger games. We argue that such a network is a powerful component for many possible multiagent algorithms.
@@ -167,6 +170,9 @@
               <img src="svg/link.svg" alt="links">
               <a href="https://arxiv.org/abs/2210.02205">arXiv</a>,
               <a href="https://www.deepmind.com/publications/game-theoretic-rating-in-n-player-general-sum-games-with-equilibria">DeepMind</a>
+              &nbsp;
+              <img src="svg/key.svg" alt="keywords">
+              Rating, Ranking, Nash Equilibrium, Correlated Equilibrium, Coarse Correlated Equilibrium, Nash Average
             </p>
             <p>
               Rating strategies in a game is an important area of research in game theory and artificial intelligence, and can be applied to any real-world competitive or cooperative setting. Traditionally, only transitive dependencies between strategies have been used to rate strategies (e.g. Elo), however recent work has expanded ratings to utilize game theoretic solutions to better rate strategies in non-transitive games. This work generalizes these ideas and proposes novel algorithms suitable for N-player, general-sum rating of strategies in normal-form games according to the payoff rating system. This enables well-established solution concepts, such as equilibria, to be leveraged to efficiently rate strategies in games with complex strategic interactions, which arise in multiagent training and real-world interactions between many agents. We empirically validate our methods on real world normal-form data (Premier League) and multiagent reinforcement learning agent evaluation.
@@ -182,6 +188,9 @@
               <img src="svg/link.svg" alt="links">
               <a href="https://content.iospress.com/articles/ai-communications/aic220113">AI Communications</a>,
               <a href="https://arxiv.org/abs/2209.10958">arXiv</a>
+              &nbsp;
+              <img src="svg/key.svg" alt="keywords">
+              Review
             </p>
             <p>
               The Game Theory & Multi-Agent team at DeepMind studies several aspects of multi-agent learning ranging from computing approximations to fundamental concepts in game theory to simulating social dilemmas in rich spatial environments and training 3-d humanoids in difficult team coordination tasks. A signature aim of our group is to use the resources and expertise made available to us at DeepMind in deep reinforcement learning to explore multi-agent systems in complex environments and use these benchmarks to advance our understanding. Here, we summarise the recent work of our team and present a taxonomy that we feel highlights many important open challenges in multi-agent research.
@@ -198,6 +207,9 @@
               <a href="https://proceedings.mlr.press/v162/liu22h.html">ICML 2022</a>,
               <a href="https://arxiv.org/abs/2205.15879">arXiv</a>,
               <a href="https://icml.cc/virtual/2022/poster/18415">Poster</a>
+              &nbsp;
+              <img src="svg/key.svg" alt="keywords">
+              Algroithms, Equilibrium Computation, Conditional Policy, Generalization 
             </p>
             <p>
               Learning to play optimally against any mixture over a diverse set of strategies is of important practical interests in competitive games. In this paper, we propose simplex-NeuPL that satisfies two desiderata simultaneously: i) learning a population of strategically diverse basis policies, represented by a single conditional network; ii) using the same network, learn best-responses to any mixture over the simplex of basis policies. We show that the resulting conditional policies incorporate prior information about their opponents effectively, enabling near optimal returns against arbitrary mixture policies in a game with tractable best-responses. We verify that such policies behave Bayes-optimally under uncertainty and offer insights in using this flexibility at test time. Finally, we offer evidence that learning best-responses to any mixture policies is an effective auxiliary task for strategic exploration, which, by itself, can lead to more performant populations.
@@ -216,6 +228,9 @@
               <a href="https://iclr.cc/media/iclr-2022/Slides/6950.pdf">Slides<a/>,
               <a href="https://neupl.github.io/demo/">Website</a>,
               <a href="https://iclr.cc/virtual/2022/poster/6950">Talk</a>
+              &nbsp;
+              <img src="svg/key.svg" alt="keywords">
+              Algroithms, Equilibrium Computation, Conditional Policy, Generalization 
             </p>
             <p>
               Learning in strategy games (e.g. StarCraft, poker) requires the discovery of diverse policies. This is often achieved by iteratively training new policies against existing ones, growing a policy population that is robust to exploit. This iterative approach suffers from two issues in real-world games: a) under finite budget, approximate best-response operators at each iteration needs truncating, resulting in under-trained good-responses populating the population; b) repeated learning of basic skills at each iteration is wasteful and becomes intractable in the presence of increasingly strong opponents. In this work, we propose Neural Population Learning (NeuPL) as a solution to both issues. NeuPL offers convergence guarantees to a population of best-responses under mild assumptions. By representing a population of policies within a single conditional model, NeuPL enables transfer learning across policies. Empirically, we show the generality, improved performance and efficiency of NeuPL across several test domains. Most interestingly, we show that novel strategies become more accessible, not less, as the neural population expands.
